@@ -21,16 +21,19 @@ class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.datos)
-    return (<div className="row">
-      {/* {this.state.datos.map((h, index) => {
-        return (
-          <Cards h={h} index={index} />
-        )
-      })} */}
-      <Spinners/>
-    </div>
-    );
+    if (this.state.datos.length !== 0) {
+      return <Spinners />
+    } else {
+      return (<div className="row">
+        {this.state.datos.map((h, index) => {
+          return (
+            <Cards h={h} index={index} />
+          )
+        })}
+
+      </div>
+      );
+    }
   }
 }
 

@@ -13,13 +13,14 @@ return(
            <Loader type="box-rotate-z" bgColor={"#FFFFFF"} title={"box-rotate-z"} color={'#FFFFFF'} size={100} />
        </div>*/}
        <div className={"item"}>
-           <Loader type="box-up" bgColor={"blue"} title={""} color={'#FFFFFF'} size={100} />
-           <Loader type="heart" bgColor={"blue"} title={"Cargando datos"} color={'#FFFFFF'} size={200} />
+           <Loader type="box-up" bgColor={"white"} title={""} color={'#FFFFFF'} size={100} />
+            <Loader type="heart" bgColor={"blue"} title={"Cargando datos"} color={'#FFFFFF'} size={200} />
            <Loader type="bubble-top" bgColor={"green"} title={"Cargando datos"} color={'#FFFFFF'} size={200} />
            <Loader type="spinner-cub" bgColor={"green"} title={"Cargando datos"} color={'#FFFFFF'} size={100} />
-       </div>
+       
+           </div> 
    </div>
-   {/* <div className={"row"}>
+ <div className={"row"}>
        <div className={"item"}>
            <Loader type="bubble-scale" bgColor={"#FFFFFF"} title={"bubble-scale"} color={'#FFFFFF'} size={100} />
        </div>
@@ -65,7 +66,7 @@ return(
        <div className={"item"}>
            <Loader type="bubble-loop" bgColor={"#FFFFFF"} title={"bubble-loop"} color={'#FFFFFF'} size={100} />
        </div>
-   </div> */}
+   </div> 
 </div>
 )
 }
